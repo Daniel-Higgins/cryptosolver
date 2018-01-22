@@ -115,6 +115,7 @@ situation6 :-
     sequence(A,B,C,D,E),
     assert(solution(ex(ex(E,+,ex(A,+,B)),+,ex(C,-,D)))).
     
+    
 %H7
 situation7:-
     problem(numbers(N1,N2,N3,N4,N5),goal(G)),
